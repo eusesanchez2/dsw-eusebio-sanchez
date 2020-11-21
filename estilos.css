@@ -1,51 +1,42 @@
-.titulo{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-    color: #005883;
+
+
+  
+#principal {
+    margin:15px 30px;
+    background: -webkit-linear-gradient(top, #00F,#3FF);
+    padding:5px;
 }
 
-.menu{
-    padding: 10px;
-    background-color: #4e4c46;
+ul {
+    float:left;
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.objetivos{
-    text-align: justify;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #c243f4;
+li {
+
+margin: 5px;
+padding: 5px;
+width:200px;
+background: #A6B1B8;
 }
 
-.tematica{
-    text-align: justify;
-    color: #43C7F4;
+#tabs {
+    background:-webkit-linear-gradient(top, #00F,#3FF);
+    margin: 5px;
+    padding: 5px;
 }
 
-.conceptos{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:  #f1f443;
-    font-size: larger;
+.boton{
+    display: inline;
+    text-align:left;
+    padding:8px 16px;
 }
 
-.texto{
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgba(108, 36, 167, 0.938);
-    font-size: 20px;
-}
-
-.informacion{
-    text-align: justify;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #81a546;
-    font-size: medium;
-}
-
-.titulo{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-    color: #005883;
-}
-
-.audio{
-    text-align: center;
+.contenido {
+    padding:0.01em 16px;
+    margin-top:16px;
+    margin-bottom:16px;
 }
