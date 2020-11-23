@@ -1,0 +1,72 @@
+DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Los meta tags de css codifican información para ser interpretada por el navegador y los buscadores." />
+	<meta name="keywords" content="HTML, CSS, DISEÑO WEB" />
+	<meta name="Author" content="Eusebio sanchez mosquera" />
+	<title>Curso UNAD Diseño de Sitios WEB  Fase 2</title>
+	<link rel="stylesheet" href="estilos.css" />
+	<script type="text/javascript" src="funciones.js"></script>
+</head>
+
+<body>
+
+  <header id = "principal"><center><p><h1>propiedades basicas de css (display, inline block, inline block)</h1></p></center></header>
+  
+
+  <nav>
+  <div id="tabs">
+  <button class="boton" onclick="tabs('etiquetas')">display</button>
+  <button class="boton" onclick="tabs('atributos')">inline block</button>
+  <button class="boton" onclick="tabs('tutorial')">Tutorial</button>
+  <button class="boton" onclick="tabs('curso')">Curso</button>
+  <button class="boton" onclick="tabs('mockup')">Mockup</button>
+  </div>
+  </nav>
+   <aside id="objetivos">
+  <ul>
+  <li><center><p><h3>Objetivos del sitio</h3></p></center></br></li>
+  <li><p><h4>General:</h4>Diseñar 5 OVAs  de los  temas del curso Diseño de Sitios Web para atender el proyecto de diseño para la UNAD</p></li>
+  <li><p><h4>Objetivo específico 1:</h4> Diseñan contenidos multimediales e interactivos, basados en css, display, inline block, inline block entre otras tecnologías</p></li>
+  <li><p><h4>Objetivo específico 2:</h4> Estudiar las características necesarias de los contenidos educativos digitales</p></li>
+  <li><p><h4>Objetivo específico 3:</h4> Presentar la estructura y propiedades básicas de css con display, inline block,  y inline block/p></li>
+  </ul>
+  </aside>
+	<section>
+  <center><p><h3>Materiales</h3></p></center></br>
+	<div id="display" class="contenido">
+		<h2>display</h2>
+		<p> Formalmente la propiedad display establece los tipos de visualización interna y externa de un elemento. La tipo externa establece la participacion de un elemento en flow layout; la tipo interna establece el layout(Diseño) de los hijos. Algunos valores de display estan totalmente definidos con sus especificaciones propias; por ejemplo el detalle de que pasa cuando display: flex es declarado y definido en la especificacion de Modelo Flexible de Caja(Flexible Box Model specification) de CSS. </p>
+		<iframe id="Iframe" width="800" height="400" src="display.html"></iframe>
+	</div>
+
+	<div id="inline block" class="contenido" style="display:none">
+		<h2>inline block</h2>
+		<p>Para explicarlo de manera sencilla, y simplificando, ciertas etiquetas HTML no afectan en absoluto al flujo de los demás elementos, limitándose a marcar ciertos fragmentos con una determinada semántica y dejando que el texto y otros elementos contiguos sigan fluyendo en la misma línea, colocándose a ambos lados de dicho elemento.
+
+			Ejemplos de estas etiquetas son: <a>, <em>,<del>... y quizá la más útil de todas: la etiqueta <span>, que se usa para envolver elementos en-línea para darles estilo sin cambiar su comportamiento. A estos elementos HTML se les llama elementos de línea o, incluso más a menudo, por su denominación en inglés: elementos "inline".</p>
+		<iframe id="Iframe" width="800" height="400" src="inline block.html"></iframe>
+	</div>
+
+	<div id="tutorial" class="contenido" style="display:none">
+		<h2>Tutorial</h2>
+		<p>El CSS (hojas de estilo en cascada) es un lenguaje que define la apariencia de un documento escrito en un lenguaje de marcado (por ejemplo, HTML). Así, a los elementos de la página web creados con HTML se les dará la apariencia que se desee utilizando CSS: colores, espacios entre elementos, tipos de letra, ...</p>
+		<iframe id="Iframe" width="1200" height="600" src="https://informaticapc.com/tutorial-css/propiedades.php"></iframe>
+	</div>
+	
+	<div id="curso" class="contenido" style="display:none">
+		<h2>Curso en Video del canal Pildoras Informaticas</h2>
+		<p></p>
+		<iframe width="720" height="405" src="https://www.youtube.com/watch?v=bSd2hoSM5nY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	
+	<div id="mockup" class="contenido" style="display:none">
+		<h2>Mockup realizado en la pagina Frame Box: http://framebox.org/</h2>
+		<p></p>
+		<img src="imagen/Mockup.PNG" alt="Mockup" width="500" height="600">
+	</div>
+	
+  </section>
+</body>
+</html>
